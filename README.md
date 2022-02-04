@@ -1,9 +1,10 @@
 # Ecal Rotation and Layer-shift Summary
+## Contents
 
 Rotation and maps: Include v13 rotated cellmodule.txt cellmap for Particle Net, and a script map_cellmodule.cxx that outputs two files: cellmodule.txt and a pdf image of what cellmodule.txt looks like physically (cell center location of the whole Ecal face)
 
 LDMX Ecal Rotation: https://github.com/LDMX-Software/ldmx-sw
-    with v13...
+
 
 Acceptance studies: Corner studies: take the ratio of how much each geometry gains/looses particle acceptance at corners.
 
