@@ -28,6 +28,6 @@ LDMX software: https://github.com/LDMX-Software/ldmx-sw
 
 **II. layer-shift**   
 
-&ensp; Layer shift implemented with successful build: https://github.com/Hongyin-bug/ldmx-sw/tree/iss904-rotate-shift
+&ensp; Layer shift implemented with successful build: https://github.com/Hongyin-bug/ldmx-sw/tree/iss904-rotate-shift    
 &ensp; Sample production and acceptance studies in progress.
 
