@@ -1,16 +1,33 @@
 # Ecal Rotation and Layer-shift Summary
 ## Contents
 
-Rotation and maps: Include v13 rotated cellmodule.txt cellmap for Particle Net, and a script map_cellmodule.cxx that outputs two files: cellmodule.txt and a pdf image of what cellmodule.txt looks like physically (cell center location of the whole Ecal face)
+geometry_updates.pdf: Slides summarizing the changes made within ldmx-sw for Ecal's rotation and layer-shift geometries.
 
-LDMX Ecal Rotation: https://github.com/LDMX-Software/ldmx-sw
+I. v13-rotation
+LDMX software: https://github.com/LDMX-Software/ldmx-sw
+  Classifiers: v12-unrotated Ecal, v13-rotated Ecal
+  
+Contents in this repo
+  i. plots_validation
+    - Folders v12-unrotated and v13-rotated: trigger-skimmed and no-trigger-skimmed plots of the unrotated and rotated geometrys, respectively
+    - Rotation v13 slides: a comparison of a few plots
+    
+  ii. cell_map
+    - cellmodule.txt: map for v13 (rotated) cell centers on the Ecal face, for bdt training and particleNet
+    - cellModulePositions.png: a image of what cellmodule.txt looks like, drawing circles around cell centers
+    - map_cellmodule.cxx: outputs cellmodule.txt and cellModulePositions.png
+    
+  iii. fiducial_ratio
+    - Trigger Skimmed Rotation slides: comparison of the Ecal electron fiducial ratios for the v12 vs. v13 geometries post-trigger-skim
+    - cellmodule_v12.txt and cellmodule_v13.txt: v12 and v13 cell center positions
+    - 10MV.py and PN.py: calculate the v13 fiducial ratio. This is a slight revision from the v12 fiducial scripts, with the original version provided by David Jiang (davidgjiang(at)ucsb.edu)
+    
+  iv. corner_acceptance
+    - Corner Studies Rotation slides: Compare the number of events at the corners of the v12 and v13 goemetries. See that there are significantly more events at the corners for v13.
+    - corner_studies.py: ouputs the ratio for the number of corner events to the number of events in the common region of v12 and v13 (overlapping region of v12 and v13 Ecal face), and an image for the contour lines of the rotated and unrotated goemetries, hexagons_image.png.
 
-
-Acceptance studies: Corner studies: take the ratio of how much each geometry gains/looses particle acceptance at corners.
-
+II. layer-shift
 
 In progress layer shift:
 https://github.com/Hongyin-bug/ldmx-sw/tree/iss904-rotate-shift
 
-
-LDMX v3.0 samples: https://docs.google.com/document/d/1jPOy92E6I1E34Gwtn2i16y2HUr0pLogvFWYrqhIIiXk/edit?usp=sharing
