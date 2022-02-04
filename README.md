@@ -1,7 +1,7 @@
 # Ecal Rotation and Layer-shift Summary
 ## Contents
 
-**geometry_updates.pdf**: Slides summarizing the changes made within ldmx-sw for Ecal's rotation and layer-shift geometries.
+**geometry_updates slides**: summarizing the changes made within ldmx-sw for Ecal's rotation and layer-shift geometries.
    
 **I. v13-rotation**
 LDMX software: https://github.com/LDMX-Software/ldmx-sw     
